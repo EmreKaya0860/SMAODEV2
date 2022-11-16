@@ -12,6 +12,9 @@
     @*<partial name ="NavBarPartial" />
     Html.Partial("NavBarPartial")*@
     @await Html.PartialAsync("NavBarPartial")
+
+    @*@Html.Partial("_NavbarMaviPartial")
+    @RenderSection("navbar2",false)*@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
